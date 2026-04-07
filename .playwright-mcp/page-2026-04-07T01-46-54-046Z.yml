@@ -1,0 +1,355 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "TEAM FM" [ref=e5] [cursor=pointer]:
+        - /url: "#hero"
+      - generic [ref=e6]:
+        - link "Classes" [ref=e7] [cursor=pointer]:
+          - /url: "#classes"
+        - link "Schedule" [ref=e8] [cursor=pointer]:
+          - /url: "#schedule"
+        - link "Instructors" [ref=e9] [cursor=pointer]:
+          - /url: "#instructors"
+        - link "FAQ" [ref=e10] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Book Free Trial" [ref=e12] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: Cork, Ireland — Est. 2010
+        - heading "TEAM FM" [level=1] [ref=e20]
+        - paragraph [ref=e21]: Brazilian Jiu-Jitsu for Everyone.
+        - generic [ref=e22]:
+          - link "Book a Free Trial" [ref=e23] [cursor=pointer]:
+            - /url: "#contact"
+          - link "View Classes" [ref=e24] [cursor=pointer]:
+            - /url: "#classes"
+      - generic [ref=e26]: Scroll
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: "3"
+        - paragraph [ref=e33]: Expert Instructors
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: 100+
+        - paragraph [ref=e36]: Active Students
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: 20+
+        - paragraph [ref=e39]: Years Experience
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: "4"
+        - paragraph [ref=e42]: Classes Offered
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - paragraph [ref=e46]: What We Offer
+        - heading "Our Classes" [level=2] [ref=e47]
+        - paragraph [ref=e48]: Whether you're stepping on the mats for the first time or training for competition, we have a class for you.
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]: 🥋
+          - generic [ref=e52]:
+            - text: Beginner
+            - heading "Beginner BJJ" [level=3] [ref=e53]
+          - paragraph [ref=e54]: The perfect starting point. Learn positions, escapes, and fundamental submissions in a safe and welcoming environment. No experience needed.
+          - generic [ref=e55]:
+            - generic [ref=e56]: 🕐 60 min
+            - generic [ref=e57]: 📅 Mon / Wed / Fri — 6:00pm
+        - generic [ref=e58]:
+          - generic [ref=e59]: 🏆
+          - generic [ref=e60]:
+            - text: Advanced
+            - heading "Advanced BJJ" [level=3] [ref=e61]
+          - paragraph [ref=e62]: For blue belts and above. Deep technique drilling, competition preparation, and focused live rolling with experienced training partners.
+          - generic [ref=e63]:
+            - generic [ref=e64]: 🕐 90 min
+            - generic [ref=e65]: 📅 Tue / Thu — 7:00pm
+        - generic [ref=e66]:
+          - generic [ref=e67]: ⭐
+          - generic [ref=e68]:
+            - text: Kids
+            - heading "Kids BJJ" [level=3] [ref=e69]
+          - paragraph [ref=e70]: Ages 5–14. Build confidence, discipline, and self-defence skills through fun, age-appropriate jiu-jitsu training.
+          - generic [ref=e71]:
+            - generic [ref=e72]: 🕐 45 min
+            - generic [ref=e73]: 📅 Sat — 10:00am
+        - generic [ref=e74]:
+          - generic [ref=e75]: 💪
+          - generic [ref=e76]:
+            - text: No-Gi
+            - heading "No-Gi Grappling" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Submission grappling without the gi. Emphasises wrestling entries, leg locks, and dynamic scrambles. Open to all levels.
+          - generic [ref=e79]:
+            - generic [ref=e80]: 🕐 75 min
+            - generic [ref=e81]: 📅 Wed / Sat — 8:00pm
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - paragraph [ref=e85]: Plan Your Week
+        - heading "Class Schedule" [level=2] [ref=e86]
+      - table [ref=e88]:
+        - rowgroup [ref=e89]:
+          - row "Day Time Class Instructor Duration" [ref=e90]:
+            - columnheader "Day" [ref=e91]
+            - columnheader "Time" [ref=e92]
+            - columnheader "Class" [ref=e93]
+            - columnheader "Instructor" [ref=e94]
+            - columnheader "Duration" [ref=e95]
+        - rowgroup [ref=e96]:
+          - row "Monday 6:00pm Beginner BJJ Head Instructor 60 min" [ref=e97]:
+            - cell "Monday" [ref=e98]
+            - cell "6:00pm" [ref=e99]
+            - cell "Beginner BJJ" [ref=e100]
+            - cell "Head Instructor" [ref=e101]
+            - cell "60 min" [ref=e102]
+          - row "Tuesday 7:00pm Advanced BJJ Head Instructor 90 min" [ref=e103]:
+            - cell "Tuesday" [ref=e104]
+            - cell "7:00pm" [ref=e105]
+            - cell "Advanced BJJ" [ref=e106]
+            - cell "Head Instructor" [ref=e107]
+            - cell "90 min" [ref=e108]
+          - row "Wednesday 6:00pm Beginner BJJ Head Instructor 60 min" [ref=e109]:
+            - cell "Wednesday" [ref=e110]
+            - cell "6:00pm" [ref=e111]
+            - cell "Beginner BJJ" [ref=e112]
+            - cell "Head Instructor" [ref=e113]
+            - cell "60 min" [ref=e114]
+          - row "Wednesday 8:00pm No-Gi Grappling Assistant Instructor 75 min" [ref=e115]:
+            - cell "Wednesday" [ref=e116]
+            - cell "8:00pm" [ref=e117]
+            - cell "No-Gi Grappling" [ref=e118]
+            - cell "Assistant Instructor" [ref=e119]
+            - cell "75 min" [ref=e120]
+          - row "Thursday 7:00pm Advanced BJJ Head Instructor 90 min" [ref=e121]:
+            - cell "Thursday" [ref=e122]
+            - cell "7:00pm" [ref=e123]
+            - cell "Advanced BJJ" [ref=e124]
+            - cell "Head Instructor" [ref=e125]
+            - cell "90 min" [ref=e126]
+          - row "Friday 6:00pm Beginner BJJ Head Instructor 60 min" [ref=e127]:
+            - cell "Friday" [ref=e128]
+            - cell "6:00pm" [ref=e129]
+            - cell "Beginner BJJ" [ref=e130]
+            - cell "Head Instructor" [ref=e131]
+            - cell "60 min" [ref=e132]
+          - row "Saturday 10:00am Kids BJJ Kids Instructor 45 min" [ref=e133]:
+            - cell "Saturday" [ref=e134]
+            - cell "10:00am" [ref=e135]
+            - cell "Kids BJJ" [ref=e136]
+            - cell "Kids Instructor" [ref=e137]
+            - cell "45 min" [ref=e138]
+          - row "Saturday 8:00pm No-Gi Grappling Assistant Instructor 75 min" [ref=e139]:
+            - cell "Saturday" [ref=e140]
+            - cell "8:00pm" [ref=e141]
+            - cell "No-Gi Grappling" [ref=e142]
+            - cell "Assistant Instructor" [ref=e143]
+            - cell "75 min" [ref=e144]
+      - paragraph [ref=e145]:
+        - text: Schedule subject to change. Check our
+        - link "Instagram" [ref=e146] [cursor=pointer]:
+          - /url: https://www.instagram.com/baraojjcork/
+        - text: for updates.
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - paragraph [ref=e150]: Learn From the Best
+        - heading "Our Instructors" [level=2] [ref=e151]
+        - paragraph [ref=e152]: Our coaches are dedicated to your growth, from your very first class to your first competition.
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e156]: HI
+          - generic [ref=e157]:
+            - generic [ref=e158]: Black Belt
+            - heading "Head Instructor" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Head Instructor & Founder
+            - paragraph [ref=e161]: With over 20 years of Brazilian Jiu-Jitsu experience, our head instructor brings world-class technique and a passion for teaching to every class. Trained under some of the best in the sport.
+            - list [ref=e162]:
+              - listitem [ref=e163]:
+                - generic [ref=e164]: ▸
+                - text: Black Belt — 20+ years experience
+              - listitem [ref=e165]:
+                - generic [ref=e166]: ▸
+                - text: Multiple national champion
+              - listitem [ref=e167]:
+                - generic [ref=e168]: ▸
+                - text: IBJJF competitor
+        - generic [ref=e169]:
+          - generic [ref=e171]: AI
+          - generic [ref=e172]:
+            - generic [ref=e173]: Brown Belt
+            - heading "Assistant Instructor" [level=3] [ref=e174]
+            - paragraph [ref=e175]: No-Gi & Competition Coach
+            - paragraph [ref=e176]: Specialising in No-Gi grappling and competition preparation. An active competitor who brings current competition knowledge directly to the mats.
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - generic [ref=e179]: ▸
+                - text: Brown Belt
+              - listitem [ref=e180]:
+                - generic [ref=e181]: ▸
+                - text: National No-Gi champion
+              - listitem [ref=e182]:
+                - generic [ref=e183]: ▸
+                - text: Active ADCC qualifier
+        - generic [ref=e184]:
+          - generic [ref=e186]: KI
+          - generic [ref=e187]:
+            - generic [ref=e188]: Purple Belt
+            - heading "Kids Instructor" [level=3] [ref=e189]
+            - paragraph [ref=e190]: Youth Programme Coach
+            - paragraph [ref=e191]: Dedicated to building the next generation of jiu-jitsu practitioners. Creates a fun, safe, and structured environment where kids can thrive on and off the mats.
+            - list [ref=e192]:
+              - listitem [ref=e193]:
+                - generic [ref=e194]: ▸
+                - text: Purple Belt
+              - listitem [ref=e195]:
+                - generic [ref=e196]: ▸
+                - text: Certified youth sports coach
+              - listitem [ref=e197]:
+                - generic [ref=e198]: ▸
+                - text: 5+ years coaching kids
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - paragraph [ref=e202]: What Our Students Say
+        - heading "Testimonials" [level=2] [ref=e203]
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: ★
+            - generic [ref=e208]: ★
+            - generic [ref=e209]: ★
+            - generic [ref=e210]: ★
+            - generic [ref=e211]: ★
+          - paragraph [ref=e212]: “Started with zero experience and the coaches made me feel completely welcome from day one. The beginner programme is structured brilliantly. Best decision I've made.”
+          - generic [ref=e213]:
+            - paragraph [ref=e214]: Ciarán M.
+            - paragraph [ref=e215]: Member since 2022
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: ★
+            - generic [ref=e219]: ★
+            - generic [ref=e220]: ★
+            - generic [ref=e221]: ★
+            - generic [ref=e222]: ★
+          - paragraph [ref=e223]: “Team FM has the best community of any gym I've trained at. Everyone helps each other improve. The No-Gi classes are incredible and the level of coaching is world-class.”
+          - generic [ref=e224]:
+            - paragraph [ref=e225]: Sarah K.
+            - paragraph [ref=e226]: Member since 2021
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - generic [ref=e229]: ★
+            - generic [ref=e230]: ★
+            - generic [ref=e231]: ★
+            - generic [ref=e232]: ★
+            - generic [ref=e233]: ★
+          - paragraph [ref=e234]: “My son has been doing the kids classes for a year and the transformation in his confidence and discipline has been unreal. The kids instructor is fantastic with them.”
+          - generic [ref=e235]:
+            - paragraph [ref=e236]: Liam O'B.
+            - paragraph [ref=e237]: Parent, member since 2023
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - generic [ref=e240]: ★
+            - generic [ref=e241]: ★
+            - generic [ref=e242]: ★
+            - generic [ref=e243]: ★
+            - generic [ref=e244]: ★
+          - paragraph [ref=e245]: “I was nervous about trying BJJ as a woman but Team FM is incredibly welcoming and inclusive. The technique focus means anyone can succeed regardless of size or strength.”
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: Aoife R.
+            - paragraph [ref=e248]: Member since 2022
+    - generic [ref=e250]:
+      - generic [ref=e251]:
+        - paragraph [ref=e252]: Got Questions?
+        - heading "FAQ" [level=2] [ref=e253]
+      - generic [ref=e254]:
+        - button "Do I need any experience to start? +" [ref=e256]:
+          - generic [ref=e257]: Do I need any experience to start?
+          - generic [ref=e258]: +
+        - button "What should I wear to my first class? +" [ref=e260]:
+          - generic [ref=e261]: What should I wear to my first class?
+          - generic [ref=e262]: +
+        - button "How do I book a free trial class? +" [ref=e264]:
+          - generic [ref=e265]: How do I book a free trial class?
+          - generic [ref=e266]: +
+        - button "Is BJJ safe? +" [ref=e268]:
+          - generic [ref=e269]: Is BJJ safe?
+          - generic [ref=e270]: +
+        - button "How long does it take to get a blue belt? +" [ref=e272]:
+          - generic [ref=e273]: How long does it take to get a blue belt?
+          - generic [ref=e274]: +
+        - button "Do you offer membership options? +" [ref=e276]:
+          - generic [ref=e277]: Do you offer membership options?
+          - generic [ref=e278]: +
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - paragraph [ref=e282]: Start Your Journey
+        - heading "Get In Touch" [level=2] [ref=e283]
+        - paragraph [ref=e284]: Ready to try your first class? Fill in the form and we'll get back to you within 24 hours.
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - paragraph [ref=e289]: Address
+              - generic [ref=e290]: 14 French Church, Cork, T12 XE76, IE
+            - generic [ref=e291]:
+              - paragraph [ref=e292]: Phone
+              - link "083 441 1751" [ref=e293] [cursor=pointer]:
+                - /url: tel:083 441 1751
+            - generic [ref=e294]:
+              - paragraph [ref=e295]: Email
+              - link "teamfmbjj@gmail.com" [ref=e296] [cursor=pointer]:
+                - /url: mailto:teamfmbjj@gmail.com
+          - iframe [ref=e298]
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - textbox "Your Name" [ref=e302]
+            - textbox "Email Address" [ref=e303]
+          - textbox "Phone (optional)" [ref=e304]
+          - combobox [ref=e305]:
+            - option "I'm interested in..." [selected]
+            - option "Beginner BJJ"
+            - option "Advanced BJJ"
+            - option "Kids BJJ"
+            - option "No-Gi Grappling"
+            - option "General Enquiry"
+          - textbox "Anything else you'd like to know?" [ref=e306]
+          - button "Book Free Trial" [ref=e307]
+  - contentinfo [ref=e308]:
+    - generic [ref=e309]:
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - paragraph [ref=e312]: TEAM FM
+          - paragraph [ref=e313]: Brazilian Jiu-Jitsu for Everyone.
+          - paragraph [ref=e314]: 14 French Church, Cork, T12 XE76, IE
+        - generic [ref=e315]:
+          - paragraph [ref=e316]: Quick Links
+          - navigation [ref=e317]:
+            - link "classes" [ref=e318] [cursor=pointer]:
+              - /url: "#classes"
+            - link "schedule" [ref=e319] [cursor=pointer]:
+              - /url: "#schedule"
+            - link "instructors" [ref=e320] [cursor=pointer]:
+              - /url: "#instructors"
+            - link "faq" [ref=e321] [cursor=pointer]:
+              - /url: "#faq"
+            - link "contact" [ref=e322] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=e323]:
+          - paragraph [ref=e324]: Get in Touch
+          - generic [ref=e325]:
+            - link "083 441 1751" [ref=e326] [cursor=pointer]:
+              - /url: tel:083 441 1751
+            - link "teamfmbjj@gmail.com" [ref=e327] [cursor=pointer]:
+              - /url: mailto:teamfmbjj@gmail.com
+          - generic [ref=e328]:
+            - link "Instagram" [ref=e329] [cursor=pointer]:
+              - /url: https://www.instagram.com/baraojjcork/
+              - img [ref=e330]
+            - link "Facebook" [ref=e332] [cursor=pointer]:
+              - /url: https://www.facebook.com/BaraoJJCork/
+              - img [ref=e333]
+            - link "YouTube" [ref=e335] [cursor=pointer]:
+              - /url: https://www.youtube.com/@teamfmcork6217
+              - img [ref=e336]
+      - generic [ref=e338]: © 2026 Team FM BJJ. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=e344] [cursor=pointer]:
+    - img [ref=e345]
+  - alert [ref=e348]
