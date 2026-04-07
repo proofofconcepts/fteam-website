@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /Users/felipeaugustosilva/development/personal-projects/fteam-website/.claude/hooks/validate_typescript.js",
+            "statusMessage": "Checking TypeScript...",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
