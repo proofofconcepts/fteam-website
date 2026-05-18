@@ -35,10 +35,10 @@ export default function ContactForm() {
       <div className="bg-brand-card border border-accent-gold rounded-lg p-10 text-center">
         <p className="text-accent-gold text-4xl mb-4">✓</p>
         <h3 className="font-display text-2xl font-bold text-brand-white mb-2">
-          Message Sent!
+          ¡Mensaje Enviado!
         </h3>
         <p className="text-brand-muted text-sm">
-          We&apos;ll be in touch within 24 hours to confirm your free trial.
+          Nos pondremos en contacto en 24 horas para confirmar tu clase gratis.
         </p>
       </div>
     );
@@ -53,14 +53,14 @@ export default function ContactForm() {
         <input
           type="text"
           name="name"
-          placeholder="Your Name"
+          placeholder="Tu Nombre"
           required
           className={inputClass}
         />
         <input
           type="email"
           name="email"
-          placeholder="Email Address"
+          placeholder="Correo Electrónico"
           required
           className={inputClass}
         />
@@ -69,31 +69,33 @@ export default function ContactForm() {
       <input
         type="tel"
         name="phone"
-        placeholder="Phone (optional)"
+        placeholder="Teléfono (opcional)"
         className={inputClass}
       />
 
       <select name="interest" className={inputClass}>
-        <option value="">I&apos;m interested in...</option>
-        <option value="beginner">Beginner BJJ</option>
-        <option value="advanced">Advanced BJJ</option>
-        <option value="kids">Kids BJJ</option>
-        <option value="nogi">No-Gi Grappling</option>
-        <option value="general">General Enquiry</option>
+        <option value="">Me interesa...</option>
+        <option value="kimono">BJJ Kimono</option>
+        <option value="nogi">No-Gi</option>
+        <option value="kids-small">Kids 4–7 años</option>
+        <option value="kids-mid">Kids 7–10 años</option>
+        <option value="kids-teen">Kids 10–14 años</option>
+        <option value="openmat">Open Mat</option>
+        <option value="general">Consulta General</option>
       </select>
 
       <textarea
         name="message"
-        placeholder="Anything else you'd like to know?"
+        placeholder="¿Algo más que quieras preguntarnos?"
         rows={4}
         className={inputClass}
       />
 
       {status === "error" && (
         <p className="text-sm text-red-400">
-          Something went wrong. Please email us directly at{" "}
-          <a href="mailto:teamfmbjj@gmail.com" className="underline">
-            teamfmbjj@gmail.com
+          Algo salió mal. Escríbenos directamente a{" "}
+          <a href="mailto:bjjmislata@gmail.com" className="underline">
+            bjjmislata@gmail.com
           </a>
           .
         </p>
@@ -104,7 +106,7 @@ export default function ContactForm() {
         disabled={status === "loading"}
         className="bg-accent-red hover:bg-accent-red-hover disabled:opacity-50 text-white font-semibold py-4 px-8 rounded text-sm uppercase tracking-widest transition-colors"
       >
-        {status === "loading" ? "Sending..." : "Book Free Trial"}
+        {status === "loading" ? "Enviando..." : "Reservar Clase Gratis"}
       </button>
     </form>
   );

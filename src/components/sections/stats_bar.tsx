@@ -1,8 +1,8 @@
 const STATS = [
-  { value: "3", label: "Expert Instructors" },
-  { value: "100+", label: "Active Students" },
-  { value: "20+", label: "Years Experience" },
-  { value: "4", label: "Classes Offered" },
+  { value: "3", label: "Instructores Expertos" },
+  { value: "100+", label: "Alumnos Activos" },
+  { value: "20+", label: "Años de Experiencia" },
+  { value: "6", label: "Clases Disponibles" },
 ];
 
 export default function StatsBar() {

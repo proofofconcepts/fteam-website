@@ -24,12 +24,15 @@ export default function HeroSection() {
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="font-display text-accent-gold tracking-[0.3em] uppercase text-sm mb-6 font-semibold">
-          Cork, Ireland — Est. 2010
+          Mislata, Valencia
         </p>
 
         <h1 className="font-display text-7xl sm:text-8xl md:text-9xl font-bold text-brand-white leading-none tracking-tight">
-          TEAM FM
+          BARAO
         </h1>
+        <p className="font-display text-2xl sm:text-3xl font-bold text-brand-white tracking-widest uppercase mt-1">
+          Jiu-Jitsu Mislata
+        </p>
 
         <p className="mt-4 text-xl sm:text-2xl text-brand-muted font-light tracking-wide">
           {SITE_CONFIG.tagline}
@@ -40,13 +43,13 @@ export default function HeroSection() {
             href="#contact"
             className="bg-accent-red hover:bg-accent-red-hover text-white font-semibold px-10 py-4 rounded text-sm uppercase tracking-widest transition-colors"
           >
-            Book a Free Trial
+            Reserva tu Clase Gratis
           </a>
           <a
             href="#classes"
             className="border border-brand-muted-border hover:border-accent-gold text-brand-white font-semibold px-10 py-4 rounded text-sm uppercase tracking-widest transition-colors"
           >
-            View Classes
+            Ver Clases
           </a>
         </div>
       </div>

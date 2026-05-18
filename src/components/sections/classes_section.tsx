@@ -7,18 +7,18 @@ export default function ClassesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-3">
-            What We Offer
+            Qué Ofrecemos
           </p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-brand-white">
-            Our Classes
+            Nuestras Clases
           </h2>
           <p className="text-brand-muted mt-4 max-w-xl mx-auto text-sm leading-relaxed">
-            Whether you&apos;re stepping on the mats for the first time or
-            training for competition, we have a class for you.
+            Tanto si pisas el tatami por primera vez como si entrenas para
+            competir, tenemos una clase para ti.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {CLASSES.map((cls) => (
             <ClassCard key={cls.id} data={cls} />
           ))}

@@ -10,14 +10,14 @@ export default function InstructorsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-3">
-            Learn From the Best
+            Aprende de los Mejores
           </p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-brand-white">
-            Our Instructors
+            Nuestros Instructores
           </h2>
           <p className="text-brand-muted mt-4 max-w-xl mx-auto text-sm leading-relaxed">
-            Our coaches are dedicated to your growth, from your very first class
-            to your first competition.
+            Nuestros entrenadores están comprometidos con tu crecimiento, desde
+            tu primera clase hasta tu primera competición.
           </p>
         </div>
 

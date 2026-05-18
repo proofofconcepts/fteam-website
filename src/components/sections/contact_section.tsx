@@ -10,14 +10,14 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-3">
-            Start Your Journey
+            Empieza tu Camino
           </p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-brand-white">
-            Get In Touch
+            Contáctanos
           </h2>
           <p className="text-brand-muted mt-4 max-w-xl mx-auto text-sm leading-relaxed">
-            Ready to try your first class? Fill in the form and we&apos;ll get
-            back to you within 24 hours.
+            ¿Listo para probar tu primera clase? Rellena el formulario y te
+            responderemos en 24 horas.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function ContactSection() {
             <div className="flex flex-col gap-5">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-2">
-                  Address
+                  Dirección
                 </p>
                 <address className="not-italic text-brand-white text-sm leading-relaxed">
                   {SITE_CONFIG.address}
@@ -35,7 +35,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-2">
-                  Phone
+                  Teléfono
                 </p>
                 <a
                   href={`tel:${SITE_CONFIG.phone}`}
@@ -67,7 +67,7 @@ export default function ContactSection() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Team FM location"
+                title="Barao JiuJitsu Mislata"
               />
             </div>
           </div>

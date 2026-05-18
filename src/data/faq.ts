@@ -7,38 +7,38 @@ export interface FaqEntry {
 export const FAQ: FaqEntry[] = [
   {
     id: "faq-1",
-    question: "Do I need any experience to start?",
+    question: "¿Necesito experiencia previa para empezar?",
     answer:
-      "Absolutely not. Our Beginner BJJ programme is designed specifically for people with zero experience. You'll start with the fundamentals alongside other beginners in a safe, supportive environment.",
+      "En absoluto. Nuestras clases de iniciación están diseñadas específicamente para personas sin ninguna experiencia. Empezarás con los fundamentos junto a otros principiantes en un entorno seguro y de apoyo.",
   },
   {
     id: "faq-2",
-    question: "What should I wear to my first class?",
+    question: "¿Qué debo llevar a mi primera clase?",
     answer:
-      "For your first session, comfortable sportswear (shorts and a t-shirt or rash guard) is perfect. If you decide to continue, we'll advise you on getting your first gi. We have loaners available for trials.",
+      "Para tu primera sesión, ropa deportiva cómoda (pantalón corto y camiseta o rashguard) es perfecta. Si decides continuar, te asesoraremos sobre cómo conseguir tu primer kimono. Tenemos kimonos de préstamo disponibles para las pruebas.",
   },
   {
     id: "faq-3",
-    question: "How do I book a free trial class?",
+    question: "¿Cómo reservo una clase de prueba gratuita?",
     answer:
-      "Simply fill in the contact form below or send us an email at teamfmbjj@gmail.com. We'll get back to you within 24 hours to confirm a time that works for you.",
+      "Simplemente rellena el formulario de contacto a continuación o envíanos un email a bjjmislata@gmail.com. Te responderemos en 24 horas para confirmar un horario que te venga bien.",
   },
   {
     id: "faq-4",
-    question: "Is BJJ safe?",
+    question: "¿Es seguro el BJJ?",
     answer:
-      "BJJ is one of the safest martial arts when practised correctly. We emphasise technique and controlled training over strength and aggression. Beginners always train with experienced partners who ensure a safe experience.",
+      "El BJJ es una de las artes marciales más seguras cuando se practica correctamente. Hacemos hincapié en la técnica y el entrenamiento controlado por encima de la fuerza y la agresividad. Los principiantes siempre entrenan con compañeros experimentados que garantizan una experiencia segura.",
   },
   {
     id: "faq-5",
-    question: "How long does it take to get a blue belt?",
+    question: "¿Cuánto tiempo se tarda en conseguir el cinturón azul?",
     answer:
-      "It varies per person but typically 1–2 years of consistent training. Belts in BJJ are earned through dedication and real skill — not just time. The journey itself is the reward.",
+      "Varía según la persona, pero normalmente entre 1 y 2 años de entrenamiento constante. Los cinturones en BJJ se ganan con dedicación y habilidad real, no solo con el tiempo. El camino en sí mismo es la recompensa.",
   },
   {
     id: "faq-6",
-    question: "Do you offer membership options?",
+    question: "¿Ofrecéis opciones de membresía?",
     answer:
-      "Yes. We offer monthly memberships, class packs, and family discounts. Contact us for current pricing — we're happy to find a plan that works for your schedule and budget.",
+      "Sí. Ofrecemos membresías mensuales, bonos de clases y descuentos familiares. Contáctanos para conocer los precios actuales — estaremos encantados de encontrar un plan que se adapte a tu horario y presupuesto.",
   },
 ];

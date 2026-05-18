@@ -1,7 +1,7 @@
 export interface ClassData {
   id: string;
   title: string;
-  level: "Beginner" | "Advanced" | "Kids" | "No-Gi";
+  level: string;
   description: string;
   schedule: string;
   duration: string;
@@ -10,43 +10,63 @@ export interface ClassData {
 
 export const CLASSES: ClassData[] = [
   {
-    id: "beginner",
-    title: "Beginner BJJ",
-    level: "Beginner",
+    id: "kimono",
+    title: "BJJ Kimono",
+    level: "Todos los niveles",
     description:
-      "The perfect starting point. Learn positions, escapes, and fundamental submissions in a safe and welcoming environment. No experience needed.",
-    schedule: "Mon / Wed / Fri — 6:00pm",
-    duration: "60 min",
+      "Aprende las posiciones, barridos y sumisiones del jiu-jitsu brasileño con kimono. Ideal para todos los niveles.",
+    schedule: "Lun / Mié — 7:00pm · Mar / Jue — 9:30am",
+    duration: "60–90 min",
     icon: "🥋",
   },
   {
-    id: "advanced",
-    title: "Advanced BJJ",
-    level: "Advanced",
+    id: "nogi",
+    title: "No-Gi",
+    level: "Todos los niveles",
     description:
-      "For blue belts and above. Deep technique drilling, competition preparation, and focused live rolling with experienced training partners.",
-    schedule: "Tue / Thu — 7:00pm",
-    duration: "90 min",
-    icon: "🏆",
+      "Grappling sin kimono. Énfasis en takedowns, leg locks y scrambles dinámicos. Abierto a todos los niveles.",
+    schedule: "Lun / Mié — 9:30am · Mar / Jue — 7:00pm",
+    duration: "60–90 min",
+    icon: "💪",
   },
   {
-    id: "kids",
-    title: "Kids BJJ",
-    level: "Kids",
+    id: "kids-small",
+    title: "Kids 4–7 años",
+    level: "Niños",
     description:
-      "Ages 5–14. Build confidence, discipline, and self-defence skills through fun, age-appropriate jiu-jitsu training.",
-    schedule: "Sat — 10:00am",
+      "Clases adaptadas para los más pequeños. Desarrollan coordinación, confianza y valores a través del jiu-jitsu.",
+    schedule: "Lun / Mié — 5:30pm",
     duration: "45 min",
     icon: "⭐",
   },
   {
-    id: "nogi",
-    title: "No-Gi Grappling",
-    level: "No-Gi",
+    id: "kids-mid",
+    title: "Kids 7–10 años",
+    level: "Niños",
     description:
-      "Submission grappling without the gi. Emphasises wrestling entries, leg locks, and dynamic scrambles. Open to all levels.",
-    schedule: "Wed / Sat — 8:00pm",
-    duration: "75 min",
-    icon: "💪",
+      "Programa estructurado para niños en edad escolar. Técnica, disciplina y compañerismo en un ambiente seguro.",
+    schedule: "Lun / Mié — 6:15pm",
+    duration: "45 min",
+    icon: "🌟",
+  },
+  {
+    id: "kids-teen",
+    title: "Kids 10–14 años",
+    level: "Adolescentes",
+    description:
+      "Para preadolescentes y adolescentes. Mayor intensidad técnica y preparación competitiva si lo desean.",
+    schedule: "Mar / Jue / Vie — 5:30pm",
+    duration: "90 min",
+    icon: "🏆",
+  },
+  {
+    id: "openmat",
+    title: "Open Mat",
+    level: "Todos los niveles",
+    description:
+      "Rueda libre supervisada. Practica con compañeros de todos los niveles en un ambiente relajado.",
+    schedule: "Vie — 9:30am y 7:00pm",
+    duration: "60–90 min",
+    icon: "🤼",
   },
 ];

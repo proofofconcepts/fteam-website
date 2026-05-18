@@ -7,10 +7,10 @@ export default function FaqSection() {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-3">
-            Got Questions?
+            ¿Tienes Dudas?
           </p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-brand-white">
-            FAQ
+            Preguntas Frecuentes
           </h2>
         </div>
 

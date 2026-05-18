@@ -32,7 +32,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <p className="font-display text-2xl font-bold text-brand-white mb-2 tracking-wider">
-              TEAM FM
+              BARAO BJJ
             </p>
             <p className="text-brand-muted text-sm">{SITE_CONFIG.tagline}</p>
             <p className="text-brand-muted text-sm mt-1">
@@ -43,27 +43,31 @@ export default function Footer() {
           {/* Quick links */}
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-4">
-              Quick Links
+              Enlaces Rápidos
             </p>
             <nav className="flex flex-col gap-2">
-              {["#classes", "#schedule", "#instructors", "#faq", "#contact"].map(
-                (href) => (
-                  <a
-                    key={href}
-                    href={href}
-                    className="text-sm text-brand-muted hover:text-brand-white transition-colors capitalize"
-                  >
-                    {href.replace("#", "")}
-                  </a>
-                )
-              )}
+              {[
+                { href: "#classes", label: "Clases" },
+                { href: "#schedule", label: "Horario" },
+                { href: "#instructors", label: "Instructores" },
+                { href: "#faq", label: "FAQ" },
+                { href: "#contact", label: "Contacto" },
+              ].map(({ href, label }) => (
+                <a
+                  key={href}
+                  href={href}
+                  className="text-sm text-brand-muted hover:text-brand-white transition-colors"
+                >
+                  {label}
+                </a>
+              ))}
             </nav>
           </div>
 
           {/* Contact + socials */}
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-4">
-              Get in Touch
+              Contacto
             </p>
             <div className="flex flex-col gap-2 text-sm text-brand-muted">
               <a
@@ -112,7 +116,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-brand-muted-border text-center text-xs text-brand-muted">
-          © {new Date().getFullYear()} Team FM BJJ. All rights reserved.
+          © {new Date().getFullYear()} Barao JiuJitsu Mislata. Todos los derechos reservados.
         </div>
       </div>
     </footer>

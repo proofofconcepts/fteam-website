@@ -9,10 +9,10 @@ export default function ScheduleSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-3">
-            Plan Your Week
+            Organiza tu Semana
           </p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-brand-white">
-            Class Schedule
+            Horario de Clases
           </h2>
         </div>
 
@@ -21,19 +21,19 @@ export default function ScheduleSection() {
             <thead>
               <tr className="bg-brand-card border-b border-brand-muted-border">
                 <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold">
-                  Day
+                  Día
                 </th>
                 <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold">
-                  Time
+                  Hora
                 </th>
                 <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold">
-                  Class
+                  Clase
                 </th>
                 <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold hidden sm:table-cell">
                   Instructor
                 </th>
                 <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold hidden md:table-cell">
-                  Duration
+                  Duración
                 </th>
               </tr>
             </thead>
@@ -63,7 +63,7 @@ export default function ScheduleSection() {
         </div>
 
         <p className="text-center text-brand-muted text-xs mt-6">
-          Schedule subject to change. Check our{" "}
+          Horario sujeto a cambios. Síguenos en{" "}
           <a
             href="https://www.instagram.com/baraojjcork/"
             target="_blank"
@@ -72,7 +72,7 @@ export default function ScheduleSection() {
           >
             Instagram
           </a>{" "}
-          for updates.
+          para actualizaciones.
         </p>
       </div>
     </section>

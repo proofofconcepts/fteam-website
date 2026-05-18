@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import { SITE_CONFIG } from "@/lib/constants";
 
 const NAV_LINKS = [
-  { label: "Classes", href: "#classes" },
-  { label: "Schedule", href: "#schedule" },
-  { label: "Instructors", href: "#instructors" },
+  { label: "Clases", href: "#classes" },
+  { label: "Horario", href: "#schedule" },
+  { label: "Instructores", href: "#instructors" },
   { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contacto", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -36,7 +36,7 @@ export default function Navbar() {
             href="#hero"
             className="font-display text-2xl font-bold tracking-wider text-brand-white hover:text-accent-gold transition-colors"
           >
-            TEAM FM
+            BARAO BJJ
           </a>
 
           {/* Desktop nav */}
@@ -54,7 +54,7 @@ export default function Navbar() {
               href="#contact"
               className="bg-accent-red hover:bg-accent-red-hover text-white text-sm font-semibold px-5 py-2.5 rounded transition-colors uppercase tracking-wide"
             >
-              Book Free Trial
+              Clase Gratis
             </a>
           </div>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="bg-accent-red hover:bg-accent-red-hover text-white text-sm font-semibold px-5 py-3 rounded text-center transition-colors uppercase tracking-wide mt-2"
             >
-              Book Free Trial
+              Clase Gratis
             </a>
           </div>
         </div>

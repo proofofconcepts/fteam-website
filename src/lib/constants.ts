@@ -1,14 +1,14 @@
 export const SITE_CONFIG = {
-  gymName: "Team FM",
-  tagline: "Brazilian Jiu-Jitsu for Everyone.",
-  address: "14 French Church, Cork, T12 XE76, IE",
-  phone: "083 441 1751",
-  email: "teamfmbjj@gmail.com",
+  gymName: "Barao JiuJitsu Mislata",
+  tagline: "Jiu-Jitsu Brasileño para Todos.",
+  address: "Carrer del Braç dels Horts, 14, 46920 Mislata, Valencia, España",
+  phone: "658 663 732",
+  email: "bjjmislata@gmail.com",
   social: {
     instagram: "https://www.instagram.com/baraojjcork/",
     facebook: "https://www.facebook.com/BaraoJJCork/",
     youtube: "https://www.youtube.com/@teamfmcork6217",
   },
   mapEmbedUrl:
-    "https://maps.google.com/maps?q=14+French+Church+Cork+T12+XE76+IE&output=embed",
+    "https://maps.google.com/maps?q=Carrer+del+Bra%C3%A7+dels+Horts+14+Mislata+Valencia+Spain&output=embed",
 } as const;

@@ -7,10 +7,10 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-3">
-            What Our Students Say
+            Lo Que Dicen Nuestros Alumnos
           </p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-brand-white">
-            Testimonials
+            Testimonios
           </h2>
         </div>
 
