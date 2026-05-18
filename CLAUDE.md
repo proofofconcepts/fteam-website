@@ -16,7 +16,7 @@ There are no tests. There is no test runner.
 
 ## Architecture
 
-Single-page marketing website for Team FM BJJ gym (Cork, Ireland). All content is static — no database, no CMS.
+Single-page marketing website for Barao JiuJitsu Mislata gym (Mislata, Valencia, Spain). All content is static — no database, no CMS.
 
 **Data flow:** Static data files (`src/data/*.ts`) → Section components (`src/components/sections/`) → `src/app/page.tsx`
 
