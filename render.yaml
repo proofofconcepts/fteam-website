@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: barao-jiujitsu-mislata
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./out
+    envVars:
+      - key: NEXT_PUBLIC_FORMSPREE_ID
+        sync: false

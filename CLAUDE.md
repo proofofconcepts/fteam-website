@@ -43,4 +43,6 @@ Single-page marketing website for Barao JiuJitsu Mislata gym (Mislata, Valencia,
 
 ## Deployment
 
-Hosted on Vercel (free hobby tier). Auto-deploys on push to `main`. The `NEXT_PUBLIC_FORMSPREE_ID` env var must be set in Vercel project settings for the contact form to work in production.
+Hosted on Render (free static site). Auto-deploys on push to `main` via `render.yaml`. Next.js is configured with `output: "export"` — the build outputs to `out/` and Render serves those static files.
+
+The `NEXT_PUBLIC_FORMSPREE_ID` env var must be set in the Render dashboard (Environment → Environment Variables) for the contact form to work in production.
