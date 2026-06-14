@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { InstructorData } from "@/data/instructors";
 
 interface InstructorCardProps {
@@ -23,11 +24,20 @@ function PlaceholderAvatar({ name }: { name: string }) {
 export default function InstructorCard({ data }: InstructorCardProps) {
   return (
     <div className="bg-brand-card border border-brand-muted-border rounded-lg overflow-hidden group">
-      {/* Photo placeholder — replace with <Image> when real photos are available */}
-      <PlaceholderAvatar name={data.name} />
+      {data.imageSrc ? (
+        <Image
+          src={data.imageSrc}
+          alt={data.imageAlt}
+          width={0}
+          height={0}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="w-full h-auto"
+        />
+      ) : (
+        <PlaceholderAvatar name={data.name} />
+      )}
 
       <div className="p-6">
-        {/* Belt rank badge */}
         <span className="inline-block text-xs font-semibold uppercase tracking-widest text-accent-gold border border-accent-gold px-2 py-0.5 rounded mb-3">
           {data.beltRank}
         </span>
@@ -40,7 +50,6 @@ export default function InstructorCard({ data }: InstructorCardProps) {
           {data.bio}
         </p>
 
-        {/* Achievements */}
         <ul className="flex flex-col gap-1">
           {data.achievements.map((achievement) => (
             <li key={achievement} className="flex items-start gap-2 text-xs text-brand-muted">
