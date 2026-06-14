@@ -5,9 +5,8 @@ export const SITE_CONFIG = {
   phone: "658 663 732",
   email: "bjjmislata@gmail.com",
   social: {
-    instagram: "https://www.instagram.com/baraojjcork/",
-    facebook: "https://www.facebook.com/BaraoJJCork/",
-    youtube: "https://www.youtube.com/@teamfmcork6217",
+    instagram: "https://www.instagram.com/bjjmislata/",
+    facebook: "https://www.facebook.com/profile.php?id=61553058293480",
   },
   mapEmbedUrl:
     "https://maps.google.com/maps?q=Carrer+del+Bra%C3%A7+dels+Horts+14+Mislata+Valencia+Spain&output=embed",

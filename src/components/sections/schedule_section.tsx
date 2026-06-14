@@ -65,7 +65,7 @@ export default function ScheduleSection() {
         <p className="text-center text-brand-muted text-xs mt-6">
           Horario sujeto a cambios. Síguenos en{" "}
           <a
-            href="https://www.instagram.com/baraojjcork/"
+            href="https://www.instagram.com/bjjmislata/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent-gold hover:underline"
