@@ -1,4 +1,4 @@
-import { SCHEDULE } from "@/data/schedule";
+import { SCHEDULE, SCHEDULE_LEGEND, DAYS, TIMES } from "@/data/schedule";
 
 export default function ScheduleSection() {
   return (
@@ -21,45 +21,59 @@ export default function ScheduleSection() {
             <thead>
               <tr className="bg-brand-card border-b border-brand-muted-border">
                 <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold">
-                  Día
+                  Horario
                 </th>
-                <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold">
-                  Hora
-                </th>
-                <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold">
-                  Clase
-                </th>
-                <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold hidden sm:table-cell">
-                  Instructor
-                </th>
-                <th className="text-left px-6 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold hidden md:table-cell">
-                  Duración
-                </th>
+                {DAYS.map((day) => (
+                  <th
+                    key={day}
+                    className="text-center px-4 py-4 text-xs font-semibold uppercase tracking-widest text-accent-gold"
+                  >
+                    {day}
+                  </th>
+                ))}
               </tr>
             </thead>
             <tbody>
-              {SCHEDULE.map((entry, idx) => (
+              {TIMES.map((time, timeIdx) => (
                 <tr
-                  key={idx}
-                  className={`border-b border-brand-muted-border last:border-0 hover:bg-brand-card transition-colors ${
-                    idx % 2 === 0 ? "bg-brand-black" : "bg-brand-dark"
+                  key={time}
+                  className={`border-b border-brand-muted-border last:border-0 hover:bg-brand-card/50 transition-colors ${
+                    timeIdx % 2 === 0 ? "bg-brand-black" : "bg-brand-dark"
                   }`}
                 >
-                  <td className="px-6 py-4 font-semibold text-brand-white">
-                    {entry.day}
+                  <td className="px-6 py-4 font-semibold text-brand-white whitespace-nowrap">
+                    {time}
                   </td>
-                  <td className="px-6 py-4 text-brand-muted">{entry.time}</td>
-                  <td className="px-6 py-4 text-brand-white">{entry.className}</td>
-                  <td className="px-6 py-4 text-brand-muted hidden sm:table-cell">
-                    {entry.instructor}
-                  </td>
-                  <td className="px-6 py-4 text-brand-muted hidden md:table-cell">
-                    {entry.duration}
-                  </td>
+                  {DAYS.map((day) => {
+                    const entry = SCHEDULE.find((e) => e.day === day && e.time === time);
+                    return (
+                      <td
+                        key={`${day}-${time}`}
+                        className="text-center px-4 py-4 text-sm text-brand-white"
+                      >
+                        {entry ? entry.className : "–"}
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
           </table>
+        </div>
+
+        <div className="mt-8 rounded-lg border border-brand-muted-border bg-brand-card p-6">
+          <h3 className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-6 text-center">
+            Leyenda
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+            {SCHEDULE_LEGEND.map((item) => (
+              <div key={item.label} className="flex flex-col items-center text-center">
+                <div className="text-3xl mb-2">{item.icon}</div>
+                <p className="text-sm font-semibold text-brand-white">{item.label}</p>
+                <p className="text-xs text-brand-muted mt-1">{item.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
 
         <p className="text-center text-brand-muted text-xs mt-6">
