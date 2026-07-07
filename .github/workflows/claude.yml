@@ -46,7 +46,7 @@ jobs:
             This is a Next.js 16 + Tailwind CSS v4 static marketing website for Team FM BJJ gym (Cork, Ireland).
             All content lives in src/data/*.ts — never hardcode gym data directly in components.
             File naming is snake_case under src/. Brand colors and fonts are defined via @theme in src/app/globals.css.
-            The contact form posts to Formspree via NEXT_PUBLIC_FORMSPREE_ID.
+            The contact section uses a static WhatsApp link — no form submission or env vars needed.
             Run `npm run build` to verify there are no TypeScript or lint errors before suggesting a change is complete.
           mcp_config: |
             {

@@ -32,7 +32,7 @@ Single-page marketing website for Barao JiuJitsu Mislata gym (Mislata, Valencia,
 
 **Tailwind v4 config:** No `tailwind.config.ts`. Brand colors and fonts are defined via `@theme` in `src/app/globals.css`. Custom tokens follow the pattern `--color-*` (e.g., `--color-accent-red`) which Tailwind exposes as utility classes (`bg-accent-red`, `text-accent-gold`, etc.).
 
-**Contact form:** Posts to Formspree. Requires `NEXT_PUBLIC_FORMSPREE_ID` env var (set in `.env.local` locally, and in Vercel project settings for production).
+**Contact form:** Static WhatsApp link — no form submission or env vars required. Visitors tap a button to open WhatsApp with a pre-filled message to the gym's number.
 
 ## Conventions
 
@@ -45,4 +45,4 @@ Single-page marketing website for Barao JiuJitsu Mislata gym (Mislata, Valencia,
 
 Hosted on Render (free static site). Auto-deploys on push to `main` via `render.yaml`. Next.js is configured with `output: "export"` — the build outputs to `out/` and Render serves those static files.
 
-The `NEXT_PUBLIC_FORMSPREE_ID` env var must be set in the Render dashboard (Environment → Environment Variables) for the contact form to work in production.
+No environment variables are required for the contact section to work — the WhatsApp number is hardcoded in `src/lib/constants.ts`.

@@ -4,6 +4,7 @@ export const SITE_CONFIG = {
   address: "Carrer del Braç dels Horts, 14, 46920 Mislata, Valencia, España",
   phone: "658 663 732",
   email: "bjjmislata@gmail.com",
+  whatsapp: "34658663732",
   social: {
     instagram: "https://www.instagram.com/bjjmislata/",
     facebook: "https://www.facebook.com/profile.php?id=61553058293480",

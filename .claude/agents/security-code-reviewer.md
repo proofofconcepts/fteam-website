@@ -13,9 +13,9 @@ You are an expert application security engineer specializing in Next.js, React, 
 
 You are reviewing code in a Next.js 16 + Tailwind CSS v4 marketing website for Team FM BJJ gym. Key facts:
 - Static site with no database or CMS; all content comes from `src/data/*.ts`
-- Three client components: `navbar.tsx`, `faq_item.tsx`, `contact_form.tsx`
-- Contact form POSTs to Formspree using `NEXT_PUBLIC_FORMSPREE_ID` env var
-- Deployed on Vercel; `NEXT_PUBLIC_` prefix exposes env vars to the browser bundle
+- Two client components: `navbar.tsx`, `faq_item.tsx` (contact form is now static — no env vars needed)
+- Contact section is a static WhatsApp link with no form submission; no `NEXT_PUBLIC_FORMSPREE_ID` env var
+- Deployed on Render as a static site; no environment variables required
 - File naming: snake_case under `src/`
 - No test runner exists
 

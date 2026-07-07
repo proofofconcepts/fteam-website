@@ -16,8 +16,7 @@ export default function ContactSection() {
             Contáctanos
           </h2>
           <p className="text-brand-muted mt-4 max-w-xl mx-auto text-sm leading-relaxed">
-            ¿Listo para probar tu primera clase? Rellena el formulario y te
-            responderemos en 24 horas.
+            ¿Listo para probar tu primera clase? Envíanos un mensaje por WhatsApp o llámanos directamente.
           </p>
         </div>
 
